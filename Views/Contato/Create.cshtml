@@ -30,22 +30,25 @@
             <input asp-for="Email" class="form-control" placeholder="email@email.com" />
             <div asp-validation-for="Email" class="text-danger"></div>
             <label></label>
-
         </div>
         <div class="row">
             <div>
-                <button class="btn btn-success btn-block" type='submit'>Registrar</button>
+                <div class="btn-espaco">
+
+                    <input type="submit" class="btn btn-outline-info" value="Registrar" />
+                    <label></label>
+                    <a class="btn btn-outline-warning " asp-action="Index">Voltar</a>
+                    <label></label>
+                </div>
             </div>
         </div>
     </div>
-   
+
 </form>
- <div> <a class="btn btn-primary btn-sm" asp-action="Index">Voltar</a></div>
- <a class="btn btn-primary btn-sm"  asp-action="Index" role="button">Adicionar</a>
 
 @section Scripts{
-    @{
-        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+@{
+await Html.RenderPartialAsync("_ValidationScriptsPartial");
 
-    }
+}
 }
