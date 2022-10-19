@@ -1,0 +1,78 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.btn-success {
+  width: 102%;
+  left: 50%;
+  padding: 5px 0;
+  background: rgba(6, 97, 59, 0.644);
+  font-weight: bold;
+  font-size: 15px;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 1s all;
+
+}
+
+.btn-primary {
+  width: 100%;
+  left: 50%;
+  padding: 5px 0;
+  background: rgba(8, 66, 173, 0.8);
+  font-weight: bold;
+  font-size: 15px;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 1s all;
+}
+
+.btn-outline-primary {
+
+  margin: 0 10px;
+ 
+}
+
+.btn-outline-success {
+
+  margin: 0 10px;
+}
+
+.btn-outline-danger {
+  margin: 0 10px;
+}
+
+.tdbutton {
+  border-collapse: separate; 
+  border-spacing: 15px 15px; 
+  margin: 0 0 0 0;
+  
+}
+.container{
+width: 70%;
+padding-left: 15%;
+}
+.a{
+  width: 102%;
+  background-color: darkslategrey;
+  
+}

@@ -1,0 +1,37 @@
+@model WebUI.Models.ContatoViewModel
+
+
+
+<form asp-action="Create">
+     <input asp-for="Id" hidden>
+
+    <div class="row">
+
+        <div class="col">
+            <label asp-for="Nome">@Html.DisplayNameFor(model => model.Nome):</label>
+            <input asp-for="Nome" class="form-control" disabled />
+        </div>
+
+        <div class="col">
+            <label asp-for="SobreNome">@Html.DisplayNameFor(model => model.SobreNome):</label>
+            <input asp-for="SobreNome" class="form-control" disabled/>
+           
+        </div>
+    </div>
+
+
+    <div class="row">
+        <div class="col">
+            <label asp-for="Celular">@Html.DisplayNameFor(model => model.Celular):</label>
+            <input asp-for="Celular" class="form-control"  disabled/>
+        </div>
+        <div class="col">
+            <label asp-for="Email">@Html.DisplayNameFor(model => model.Email):</label>
+            <input asp-for="Email" class="form-control" disabled/>
+            <label></label>
+        </div>
+    
+    <input type="submit" class="btn btn-primary"/>
+    <a class="btn btn-primary btn-sm"  asp-controller="Contato" asp-action="Index" asp-route-id="@Model.Id">Voltar</a>
+    </div>
+</form>
