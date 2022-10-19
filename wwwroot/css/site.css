@@ -51,7 +51,6 @@ body {
   padding: 5px 0;
 }
 
-
 .btn-outline-info {
   width: 100%;
   left: 50%;
@@ -78,11 +77,4 @@ body {
 .container{
 width: 100%;
 padding-left: 8%;
-}
-.a{
-  width: 100%;
-  background-color: darkslategrey;
-  display: inline-block;
-  transition-duration: 4s;
-  -webkit-transition-duration: 4s;
 }
