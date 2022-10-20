@@ -36,14 +36,19 @@
                 <td>
                     @Html.DisplayFor(modelItem => item.Celular)
                 </td>
+              
                 <td>
                     @Html.DisplayFor(modelItem => item.Email)
+                   
                 </td>
+           
                 <td class="tdbutton">
                     <div class="btn-espaco">
+                     
                         <a class="btn btn-outline-primary btn-sm" asp-controller="Contato" role="button" asp-action="Details"asp-route-id="@item.Id">Detalhes</a>
+                        &nbsp;&nbsp;
                         <a class="btn btn-outline-success btn-sm" asp-controller="Contato" role="button" asp-action="Update" asp-route-id="@item.Id">Atualizar</a>
-                        <a class="btn btn-outline-danger  btn-sm" asp-controller="Contato" role="button" asp-action="Deletar" asp-route-id="@item.Id">Excluir &amp;</a>                   
+                        <a class="btn btn-outline-danger  btn-sm" asp-controller="Contato" role="button" asp-action="Deletar" asp-route-id="@item.Id">&nbsp;&nbsp;Excluir&nbsp;&nbsp;</a>                   
                     </div>
                 </td>
             </tr>

@@ -68,13 +68,9 @@ body {
   margin: 0 10px;
 }
 
-.tdbutton {
-  border-collapse: separate; 
-  border-spacing: 15px 15px; 
-  margin: 0 0 0 0;
-  
-}
+
 .container{
 width: 100%;
 padding-left: 8%;
 }
+
